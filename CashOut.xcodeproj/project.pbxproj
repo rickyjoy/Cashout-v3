@@ -26,6 +26,7 @@
 		1D57C1F21635B84A00B42328 /* splash_fade.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D57C1F11635B84A00B42328 /* splash_fade.png */; };
 		1D57C1F41635B88800B42328 /* simple_compare_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D57C1F31635B88800B42328 /* simple_compare_background.png */; };
 		1D57C1F91635B98C00B42328 /* ImageToDrag.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D57C1F81635B98C00B42328 /* ImageToDrag.m */; };
+		1D5E65F71654C517007024D7 /* COTWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5E65F61654C517007024D7 /* COTWebView.m */; };
 		1DC137D316458A2700B26872 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC137D216458A2700B26872 /* Utility.m */; };
 		1DC137D916458E8D00B26872 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC137D816458E8D00B26872 /* libsqlite3.dylib */; };
 		1DD864DE164A04CA00C74598 /* COTAddStudentsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD864DD164A04CA00C74598 /* COTAddStudentsView.m */; };
@@ -105,6 +106,8 @@
 		1D57C1F81635B98C00B42328 /* ImageToDrag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageToDrag.m; sourceTree = "<group>"; };
 		1D5E12BF1635F16E007F3BB5 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
 		1D5E12C11635F199007F3BB5 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		1D5E65F51654C517007024D7 /* COTWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COTWebView.h; sourceTree = "<group>"; };
+		1D5E65F61654C517007024D7 /* COTWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COTWebView.m; sourceTree = "<group>"; };
 		1DC137D116458A2700B26872 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
 		1DC137D216458A2700B26872 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
 		1DC137D816458E8D00B26872 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
@@ -219,6 +222,8 @@
 				1D4D787A162E473400628BFD /* Storyboard.storyboard */,
 				1D4D787C162E497600628BFD /* COTHomeViewController.h */,
 				1D4D787D162E497600628BFD /* COTHomeViewController.m */,
+				1D5E65F51654C517007024D7 /* COTWebView.h */,
+				1D5E65F61654C517007024D7 /* COTWebView.m */,
 				1D03CF481645B5B5002DD7CD /* COTLoginView.h */,
 				1D03CF491645B5B5002DD7CD /* COTLoginView.m */,
 				1D01ABCB16447F2E00C4A903 /* COTRegisterView.h */,
@@ -459,6 +464,7 @@
 				1DEC186716517CE5007F0D98 /* FMResultSet.m in Sources */,
 				1DEC186816517CE5007F0D98 /* FMDatabasePool.m in Sources */,
 				1DEC186B16518315007F0D98 /* COTALoggedInPLayView.m in Sources */,
+				1D5E65F71654C517007024D7 /* COTWebView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
